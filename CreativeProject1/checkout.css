@@ -1,0 +1,152 @@
+checkout css
+   * { 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 961px) {
+    .account-options {
+        display: flex;
+        color: #000000;
+        position: absolute;
+        right: 2%;
+    }
+    body {
+        background-color: #a4f1ff;
+    }
+    .cart-items {
+        margin-top: 20px;
+    }
+    .nav-link {
+        box-sizing: border-box;
+        margin-left: 20px;
+        white-space: nowrap;
+    }
+    .options {
+        display: flex;
+        justify-content: space-between;
+    }
+    .payment-information {
+        box-sizing: border-box;
+        width: 40%;
+        padding-bottom: 30%;
+        background-color: rgb(235, 235, 235);
+        border-left: 3px solid black;
+    }
+    .title {
+        background-color: #bbbbbb;
+    }
+    .your-cart {
+        box-sizing: border-box;
+        padding-left: 14%;
+    }
+
+
+  
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .account-options {
+        margin-top: 50px;
+    }
+    body {
+        background-color: rgb(72, 255, 170);
+    }
+    .cart-items {
+        margin-top: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .options {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .nav-link {
+        box-sizing: border-box;
+        margin-left: 20px;
+        white-space: nowrap;
+    }
+    
+    .title {
+        background-color: #bbbbbb;
+    }
+    .your-cart {
+        align-items: center;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .account-options {
+        margin-top: 50px;
+    }
+    body {
+        background-color: #bebcbc;
+    }
+    .cart-items {
+        margin-top: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .options {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .nav-link {
+        box-sizing: border-box;
+        margin-left: 20px;
+        white-space: nowrap;
+    }
+    
+    .title {
+        background-color: #bbbbbb;
+    }
+    .your-cart {
+        align-items: center;
+    }
+}
+
+.bg-light {
+    background-color: rgb(225, 247, 26) !important;
+    color: #000000;
+}
+
+.github-footer {
+    bottom: -200px;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+h2 { 
+    text-decoration: underline;
+    text-align: center;
+}
+.login2 {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    background-color: #d1b63d;
+}
+
+.payment-message {
+    text-align: center;
+    font-style: italic;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+
